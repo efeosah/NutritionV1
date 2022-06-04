@@ -109,12 +109,13 @@ export const Fact = (data) => {
         resetQuery();
         getFacts();
         
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [data.item]);
 
     useEffect(() => {
         getFacts();
         
-        
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [minQuery]);
 
     // useEffect(() => {
@@ -202,10 +203,6 @@ export const Fact = (data) => {
     }
 
 
-    const clickList = (e) => {
-        console.log(e.target.style)
-        // e.target.style.background = "grey";
-    }
 
 
     return (
