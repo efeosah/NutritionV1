@@ -8,7 +8,6 @@ import "../assets/styles.css";
 
 
 export const Main = () => {
-    const [result, setResult] = useState(false);
     //number of hits from query
     const [item, setItem] = useState("");
 
