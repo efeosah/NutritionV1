@@ -1,0 +1,321 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #444;
+}
+
+input{
+  display:flex;
+  margin-bottom: 10px;
+
+
+}
+/* reduce size of margin to the sides  */
+
+#root{
+  /* max-width: 450px; */
+  width : 95vw;
+  margin: 2rem 2rem;
+  padding: 1rem 1rem;
+  display: inline-flex;
+  height:100%;
+
+}
+
+h1{
+  /* align-items: center; */
+  margin-bottom: 15px;
+
+}
+
+form{
+
+  display: flex;
+  margin-bottom: 2rem;
+    
+}
+
+
+
+[type='text'], button{
+    display: inline-block;
+    -webkit-appearance: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    margin: 0 0.5rem;
+}
+
+/* 
+[type='text']{
+    width: 100%;
+} */
+
+
+[type="text"]:active,
+[type="text"]:focus {
+  outline: 0;
+  border: 2px solid #007bff;
+}
+
+/*  */
+[type="checkbox"] {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+h1 {
+  color: #222;
+}
+
+ul {
+  padding: 0;
+}
+  
+li {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+  
+li span {
+  display: inline-block;
+  padding: .5rem;
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+li span:hover {
+  background: rgba(179, 215, 255, 0.52);
+  cursor: pointer;
+}
+
+li span:focus {
+  outline: 0;
+  border: 2px solid #007bff;
+  background: rgba(179, 207, 255, 0.52)
+}
+
+
+
+
+
+/* LEFT DIV */
+
+
+.leftdiv{
+  width:50%;
+  display: inline-block;
+  margin: 20px;
+  height:100%;
+
+}
+
+/* RIGHT DIV */
+.rightdiv{
+  width:50%;
+  display: inline-block;
+  margin: 20px;
+  height:100%;
+
+}
+
+/* CONTAINER DIV
+.maindiv{
+  display:inline;
+  width: 100%;
+
+} */
+
+/*  */
+
+/* p {
+  margin: 0;
+}
+.performance-facts {
+  border: 1px solid black;
+  margin: 20px;
+  float: left;
+  width: 280px;
+  padding: 0.5rem;
+}
+.performance-facts table {
+  border-collapse: collapse;
+}
+.performance-facts__title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 0 0.25rem 0;
+}
+.performance-facts__header {
+  border-bottom: 10px solid black;
+  padding: 0 0 0.25rem 0;
+  margin: 0 0 0.5rem 0;
+}
+.performance-facts__header p {
+  margin: 0;
+}
+.performance-facts__table, .performance-facts__table--small, .performance-facts__table--grid {
+  width: 100%;
+}
+.performance-facts__table thead tr th, .performance-facts__table--small thead tr th, .performance-facts__table--grid thead tr th, .performance-facts__table thead tr td, .performance-facts__table--small thead tr td, .performance-facts__table--grid thead tr td {
+  border: 0;
+}
+.performance-facts__table th, .performance-facts__table--small th, .performance-facts__table--grid th, .performance-facts__table td, .performance-facts__table--small td, .performance-facts__table--grid td {
+  font-weight: normal;
+  text-align: left;
+  padding: 0.25rem 0;
+  border-top: 1px solid black;
+  white-space: nowrap;
+}
+.performance-facts__table td:last-child, .performance-facts__table--small td:last-child, .performance-facts__table--grid td:last-child {
+  text-align: right;
+}
+.performance-facts__table .blank-cell, .performance-facts__table--small .blank-cell, .performance-facts__table--grid .blank-cell {
+  width: 1rem;
+  border-top: 0;
+}
+.performance-facts__table .thick-row th, .performance-facts__table--small .thick-row th, .performance-facts__table--grid .thick-row th, .performance-facts__table .thick-row td, .performance-facts__table--small .thick-row td, .performance-facts__table--grid .thick-row td {
+  border-top-width: 5px;
+}
+.small-info {
+  font-size: 0.7rem;
+}
+.performance-facts__table--small {
+  border-bottom: 1px solid #999;
+  margin: 0 0 0.5rem 0;
+}
+.performance-facts__table--small thead tr {
+  border-bottom: 1px solid black;
+}
+.performance-facts__table--small td:last-child {
+  text-align: left;
+}
+.performance-facts__table--small th, .performance-facts__table--small td {
+  border: 0;
+  padding: 0;
+}
+.performance-facts__table--grid {
+  margin: 0 0 0.5rem 0;
+}
+.performance-facts__table--grid td:last-child {
+  text-align: left;
+}
+.performance-facts__table--grid td:last-child::before {
+  content: "•";
+  font-weight: bold;
+  margin: 0 0.25rem 0 0;
+}
+.text-center {
+  text-align: center;
+}
+.thick-end {
+  border-bottom: 10px solid black;
+}
+.thin-end {
+  border-bottom: 1px solid black;
+} */
+
+
+/*  */
+
+#nutritionfacts { 
+  background-color:white; 
+  border:1px solid black; 
+  padding:3px; 
+  /* width:100%; */
+  margin : 20px; 
+}
+#nutritionfacts td { 
+  color:black; 
+  font-family:'Arial Black','Helvetica Bold',sans-serif; 
+  font-size:8pt; 
+  padding:10px; 
+}
+#nutritionfacts td.header { 
+  font-family:'Arial Black','Helvetica Bold',sans-serif; 
+  font-size:90%; 
+  white-space:nowrap; 
+}        
+#nutritionfacts div.label { 
+  float:left; 
+  font-family:'Arial Black','Helvetica Bold',sans-serif; 
+}
+#nutritionfacts div.serving { 
+  font-family:Arial,Helvetica,sans-serif; 
+  font-size:8pt; 
+  text-align:center; 
+}
+#nutritionfacts div.weight { 
+  display:inline; 
+  font-family:Arial,Helvetica,sans-serif; 
+  padding-left:1px; 
+}
+#nutritionfacts div.dv { 
+  display:inline; 
+  float:right; 
+  font-family:'Arial Black','Helvetica Bold',sans-serif; 
+}
+
+#nutritionfacts table.main{
+
+  width: 100%;
+  padding : 10px;
+  height : 100%;
+
+} 
+
+#nutritionfacts table.vitamins td {  
+  font-family:Arial,Helvetica,sans-serif; 
+  white-space:nowrap; 
+  width:100%; 
+}
+#nutritionfacts div.line { 
+  border-top:1px solid black; 
+  padding : 10px 0;
+}
+#nutritionfacts div.labellight { 
+  float:left; 
+  font-family:Arial,Helvetica,sans-serif; 
+}
+#nutritionfacts .highlighted {
+  border:1px dotted grey;
+  padding:2px;
+}
+/* tr{
+  display :table-row
+} */
+
+tr#bar{
+
+  height: 10px;
+
+}
+
+tbody#perc{
+  width:100%
+}
+
+
+
