@@ -6,7 +6,6 @@ import { Display } from "../components/display";
 
 import "../assets/styles.css";
 
-const rightDivTemp = ``
 
 export const Main = () => {
     const [result, setResult] = useState(false);
@@ -40,7 +39,7 @@ export const Main = () => {
                 <h1>Nutrition Facts</h1>
                 <Form update={(_item) => setItem(_item)} />
                 
-                <Fact item={item} result={(res) => setResult(res)} select={(_item) => setSelected(_item)}/> 
+                <Fact item={item}  select={(_item) => setSelected(_item)}/> 
             </div>
 
             <div className="rightdiv">

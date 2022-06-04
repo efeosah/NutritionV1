@@ -117,16 +117,16 @@ export const Fact = (data) => {
         
     }, [minQuery]);
 
-    useEffect(() => {
-        if(facts.length > 0){
-            data.result(true)
-        }
-        else{
-            data.result(false)
+    // useEffect(() => {
+    //     if(facts.length > 0){
+    //         data.result(true)
+    //     }
+    //     else{
+    //         data.result(false)
 
-        }
+    //     }
         
-    }, [facts]);
+    // }, [facts]);
 
     const getFacts = () => {
         fetch(url, options)
