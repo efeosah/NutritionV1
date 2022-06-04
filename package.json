@@ -2,7 +2,7 @@
   "name": "nutrition",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/build",
+  // "homepage": "/build",
   "repository": {
     "type": "git",
     "url": "https://github.com/efeosah/NutritionV1"
